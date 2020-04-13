@@ -69,7 +69,7 @@ Nos proporciona todo lo necesario para mantener en producción nuestros framewor
 
 Antes de comenzar, tenemos que tener una seríe de conceptos básicos:
 
-- **Cluster:** Conjunto de másquinas físicas o virtuales y otros recursos utilizados por kubernetes.
+- **Cluster:** Conjunto de máquinas físicas o virtuales y otros recursos utilizados por kubernetes.
 - **Nodo:** Una máquina física o virtual ejecutándose en kubernetes donde pods pueden ser programados.
 - **Pod:** Conjunto de contenedores y volumenes. Son la unidad más pequeña desplegable.
 - **Deployment o ReplicaSet: (Controllers)** Gestor de Pods que asegura que están levantadas las réplicas y permite escalar de forma fácil. Una réplica es una copia exacta de un Pod. Levanta Pods en caso de fallos o reinicios. Lo bueno del Deployment te permite actualizar de una forma mas controlada tu aplicación.
